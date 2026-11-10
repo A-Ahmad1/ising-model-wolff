@@ -1,0 +1,10 @@
+numpy
+scipy
+matplotlib
+networkx
+jupyter
+# The notebook decorates functions that call NetworkX and SciPy with @jit.
+# Numba 0.59+ no longer falls back to "object mode" for these, so they fail to
+# compile. Either pin an older Numba (requires Python <= 3.11), or remove the
+# @jit decorators (see the code suggestions).
+numba<0.59

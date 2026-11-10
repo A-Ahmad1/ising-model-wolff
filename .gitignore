@@ -1,0 +1,17 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Large raw outputs written by %store in the notebook
+spin_arr.txt
+net_spin_arr.txt
+energy_arr.txt
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
